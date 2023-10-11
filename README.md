@@ -11,10 +11,10 @@ Share any future plans or potential improvements for the project. This could inc
 Contact information:
 My Name is Thembelihle Ngobese.
 My Social Media Profiles:
- -LinkedIn
- -Twitter
- -Github
- -Email
+ -LinkedIn: www.linkedin.com/thembelihle-ngobese-1b7825221
+ -Twitter: @thembel13335316
+ -Github: github.com/ThembelihleN
+ -Email: thembelihlengobese3@gmail.com
 
 
 My Prototype
