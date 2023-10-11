@@ -1,17 +1,21 @@
 Project Overview:
-Provide a brief description of the project, its purpose, and goals. Explain what problem the project aims to solve or what value it brings to users.
 The purpose of this project is to shwcase the web development skills I acquired on thje Intro to software engineering program offered at ALX.
 Features and Functionality:
 List the main features and functionalities of the project. Describe how users can interact with the application and any notable aspects or unique selling points.
 Technologies Used:
-Specify the technologies, frameworks, and languages used in the project. This can include HTML, CSS, JavaScript, Python, specific libraries, or frameworks like Flask, and any other tools or services utilized.
+This project includes HTML, CSS, JavaScript and Flask
 Screenshots or Demo:
 Include screenshots or a link to a live demo if available. Visual representations can help readers understand the project’s appearance and functionality.
 Roadmap and future enhancements:
 Share any future plans or potential improvements for the project. This could include additional features, performance optimizations, or scalability considerations.
 Contact information:
-Include your name, along with contact information or links to personal portfolios or social media profiles.
+My Name is Thembelihle Ngobese.
+My Social Media Profiles:
+ -LinkedIn
+ -Twitter
+ -Github
+ -Email
 
 
-Prototype
+My Prototype
 https://drive.google.com/file/d/1w226MzXeTn_vyndCguOvLdaowMxpGQAR/view?usp=sharing
