@@ -13,6 +13,5 @@ Contact information:
 Include your name, along with contact information or links to personal portfolios or social media profiles.
 
 
-
-My prototype
+Prototype
 https://drive.google.com/file/d/1w226MzXeTn_vyndCguOvLdaowMxpGQAR/view?usp=sharing
