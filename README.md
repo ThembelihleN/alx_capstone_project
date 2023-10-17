@@ -1,13 +1,18 @@
 Project Overview:
 The purpose of this project is to shwcase the web development skills I acquired on thje Intro to software engineering program offered at ALX.
+
 Features and Functionality:
-List the main features and functionalities of the project. Describe how users can interact with the application and any notable aspects or unique selling points.
+Users can get to know more about me as a web developer and the projects I have been working on to develop my skills. This includes links to contact me and to my projects.
+
 Technologies Used:
-This project includes HTML, CSS, JavaScript and Flask
+This project includes HTML, CSS and JavaScrpt.
+
 Screenshots or Demo:
-Include screenshots or a link to a live demo if available. Visual representations can help readers understand the project’s appearance and functionality.
+
+
 Roadmap and future enhancements:
-Share any future plans or potential improvements for the project. This could include additional features, performance optimizations, or scalability considerations.
+This project may include backend and api in the future. 
+
 Contact information:
 My Name is Thembelihle Ngobese.
 My Social Media Profiles:
