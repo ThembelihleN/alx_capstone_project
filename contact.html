@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="contact.js"></script>
     <script src="https://kit.fontawesome.com/b51896b5d1.js" crossorigin="anonymous"></script>
     <title>contact Page</title>
 </head>
@@ -12,11 +13,74 @@
         <nav class="nav main-nav">
             <ul>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="skills.html">Skills and Projects</a></li>
+                <li><a href="Skills and Projects.html">Skills and Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <section class="content-section">
+        <h2 class="section-header">FUND HER STUDIES</h2>
+        <p>I am currently running a FHS program for underpriviledged women who
+            would like to venture into tech but do not have the financial
+            means or rather ability to further their studies and launch their
+            careers in the tech industry.
+            <br>
+            By purchasing the following items, you will be aiding my organization
+            in the fundraising and making a difference in a girl's life.
+        </p>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">MERCH</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">T-Shirt</span>
+                <img class="shop-item-image" src="images/classic-tee.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R239.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Jeans</span>
+                <img class="shop-item-image" src="images/jeans.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R349.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Hoodie</span>
+                <img class="shop-item-image" src="images/hoodie.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R229.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Sweater</span>
+                <img class="shop-item-image" src="images/sweater.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R189.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">R0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
     <footer class="main-footer">
         <div class="container main-footer-container">
             <ul class="nav footer-nav">
