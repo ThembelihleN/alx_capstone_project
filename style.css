@@ -1,8 +1,14 @@
 
-html, body {
+html {
     margin: 0;
     padding: 0;
     min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav ul {
@@ -32,9 +38,25 @@ html, body {
     background-image: url("images/background\ image.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 1.5em;
+}
 
 .about-me-image {
     float: left;
@@ -60,6 +82,7 @@ html, body {
 
 .shop-item-image {
     height: 250px;
+    border:rgba(0, 0, 0, .6)
 }
 
 .shop-item-details {
@@ -77,6 +100,14 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.btn-primary {
+    color: white;
+    background-color:#ec49a3;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
 }
 
 .cart-header {
@@ -140,7 +171,7 @@ html, body {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #ec49a3;
     background-color: #eee;
     color: #333;
     padding: 0;
@@ -182,14 +213,14 @@ html, body {
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color: #ec49a3;
     color: white;
     padding: .25em 0;
+    margin-top: auto;
 }
 
 .main-footer-container {
     display: flex;
-    align-items: center;
 }
 
 .main-footer-container ul {
