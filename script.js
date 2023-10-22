@@ -1,10 +1,9 @@
 // TODO: Select all elements needed
 //    Use the HTML to figure out what classes/ids will work best for selecting each element
 const form = document.querySelector("#form")
-const usernameInput = document.querySelector("#username")
+const usernameInput = document.querySelector("#name")
 const passwordInput = document.querySelector("#password")
 const passwordConfirmInput = document.querySelector("#password-confirmation")
-const termsInput = document.querySelector("#terms")
 const errorsContainer = document.querySelector(".errors")
 const errorsList = document.querySelector(".errors-list")
 
@@ -37,6 +36,7 @@ form.addEventListener("submit", e => {
   }
 })
 
+
 // TODO: Define this function
 function clearErrors() {
   // Loop through all the children of the error-list element and remove them
@@ -49,6 +49,7 @@ function clearErrors() {
   }
   errorsContainer.classList.remove("show")
 }
+
 
 // TODO: Define this function
 function showErrors(errorMessages) {

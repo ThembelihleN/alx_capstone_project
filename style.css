@@ -32,14 +32,14 @@ body {
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
-/*
+
 .main-header {
     background-color: rgba(0, 0, 0, .6);
     background-image: url("images/background\ image.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 25px;
-}*/
+    padding-bottom: 30px;
+}
 
 .content-section {
     margin: 1em;
@@ -50,6 +50,7 @@ body {
     margin: 0 auto;
     padding: 0 1.5em;
 }
+
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
@@ -57,15 +58,14 @@ body {
     text-align: center;
     font-size: 1.5em;
 }
-/*
+
 .about-me-image {
     float: left;
     height: 200px;
     width: 200px;
     margin: 15px;
     border-radius: 50%;
-}*/
-
+}
 
 .shop-item {
     margin: 30px;
@@ -265,4 +265,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+ 
+  .errors {
+    display: none;
+  }
+
+  .errors.show {
+    display: block;
+  }
+
+  .form-section{
+    align-items: center;
+    display: flex;
+    margin: 1em;
   }
