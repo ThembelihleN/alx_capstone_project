@@ -267,14 +267,6 @@ body {
     align-items: flex-start;
   }
  
-  .errors {
-    display: none;
-  }
-
-  .errors.show {
-    display: block;
-  }
-
   .form-section{
     align-items: center;
     display: flex;
