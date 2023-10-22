@@ -32,14 +32,14 @@ body {
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
-
+/*
 .main-header {
     background-color: rgba(0, 0, 0, .6);
     background-image: url("images/background\ image.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 25px;
-}
+}*/
 
 .content-section {
     margin: 1em;
@@ -57,14 +57,15 @@ body {
     text-align: center;
     font-size: 1.5em;
 }
-
+/*
 .about-me-image {
     float: left;
     height: 200px;
     width: 200px;
     margin: 15px;
     border-radius: 50%;
-}
+}*/
+
 
 .shop-item {
     margin: 30px;
@@ -236,3 +237,32 @@ body {
     width: 30px;
     height: 30px;
 }
+
+.errors {
+    background-color: hsl(0, 100%, 80%);
+    border-radius: .5rem;
+    padding: 10px;
+    color: hsl(0, 50%, 20%);
+    margin-bottom: 1rem;
+  }
+  
+  #form {
+    margin: 1rem 0;
+  }
+  
+  .error-title {
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+  
+  .errors-list {
+    margin: 0;
+    padding-left: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
