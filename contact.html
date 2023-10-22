@@ -19,7 +19,9 @@
         </nav>
     </header>
     <section class="container content-section">
+        <h2 class="section-header">Contact Me</h2>
           <form action="thank-you.html" id="form">
+            <span id="error">error</span>
             <div class="form-group">
               <label for="username">Your Name</label>
               <input type="text" id="name" name="name" placeholder="Full Name" required>
@@ -30,10 +32,10 @@
                 <input type="text" id="email" name="email" placeholder="email@example.com" required>
             </div>
 
-            <span id="error">error</span>
-
+            <div class="form-group">
             <textarea id="msg-area" name="SendYourMessage" id="SendYourMessage" cols="30" rows="5" placeholder="Write Your Message here."></textarea>
-        
+            </div>
+
             <button class="btn btn-primary" type="submit">Send Message</button>
           </form>
     </section>
