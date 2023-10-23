@@ -29,3 +29,29 @@ button.addEventListener('click', (event) => {
   validateEmail(email);
 });
 
+document.addEventListener('DOMContentLoaded', function (){
+  const contactform = document.getElementById('form')
+  contactform.addEventListener('submit', function (event){
+    event.preventDefault();
+    const formData = newFormData(contactform)
+
+  })
+})
+
+fetch('/send-email', {
+          method: 'POST',
+          body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+          if (data.success) {
+              alert('Email sent successfully!');
+          } else {
+              alert('Failed to send email. Please try again.');
+          }
+      })
+      .catch(error => {
+          console.error(error);
+          alert('An error occurred. Please try again.');
+      });
+
