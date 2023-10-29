@@ -37,11 +37,13 @@ document.addEventListener('DOMContentLoaded', function (){
 
   })
 })
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
+const { Script } = require('vm');
 
 const app = express();
 
@@ -76,12 +78,12 @@ app.post('/send', (req, res) => {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: 'mail.YOURDOMAIN.com',
+    host: 'ngobesethembelihle34.gmail.com',
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: 'YOUREMAIL', // generated ethereal user
-        pass: 'YOURPASSWORD'  // generated ethereal password
+        user: 'ngobesethembelihle34@gmail.com', // generated ethereal user
+        pass: 'Izwile@30'  // generated ethereal password
     },
     tls:{
       rejectUnauthorized:false
@@ -91,9 +93,9 @@ app.post('/send', (req, res) => {
   // setup email data with unicode symbols
   let mailOptions = {
       from: '"Nodemailer Contact" <your@email.com>', // sender address
-      to: 'RECEIVEREMAILS', // list of receivers
+      to: 'thembelihlengobese3@gmail.com', // list of receivers
       subject: 'Node Contact Request', // Subject line
-      text: 'Hello world?', // plain text body
+      text: 'Hello world.This was Easy!', // plain text body
       html: output // html body
   };
 
@@ -109,22 +111,4 @@ app.post('/send', (req, res) => {
   });
   });
 
-app.listen(3000, () => console.log('Server started...'));
-
-fetch('/send-email', {
-          method: 'POST',
-          body: formData
-      })
-      .then(response => response.json())
-      .then(data => {
-          if (data.success) {
-              alert('Email sent successfully!');
-          } else {
-              alert('Failed to send email. Please try again.');
-          }
-      })
-      .catch(error => {
-          console.error(error);
-          alert('An error occurred. Please try again.');
-      });
-
+script.listen(3000, () => console.log('Server started...'));
