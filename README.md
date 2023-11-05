@@ -11,7 +11,7 @@ Screenshots or Demo:
 
 
 Roadmap and future enhancements:
-This project may include backend and api in the future. 
+This project may include advanced backend in the future. 
 
 Contact information:
 My Name is Thembelihle Ngobese.
