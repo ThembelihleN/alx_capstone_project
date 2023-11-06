@@ -1,0 +1,15 @@
+{
+  "name": "alx_capstone_project",
+  "version": "1.0.0",
+  "description": "Project Overview:\r The purpose of this project is to shwcase the web development skills I acquired on the Intro to software engineering program offered at ALX.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  }
+}
