@@ -23,9 +23,9 @@ function validateEmail(email) {
 
 
 button.addEventListener('click', (event) => {
-  event.preventDefault();
   const email = document.getElementById('email').value;
   validateEmail(email);
+  event.preventDefault();
 });
 
 document.addEventListener('DOMContentLoaded', function (){
