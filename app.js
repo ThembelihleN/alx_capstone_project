@@ -1,4 +1,29 @@
+var nodemailer = require('nodemailer');
 
+var transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'ngobesethembelihle34@gmail.com',
+    pass: 'Izwile@30'
+  }
+});
+
+var mailOptions = {
+  from: 'ngobesethembelihle34@gmail.com',
+  to: 'thembelihlengobese3@gmail.com',
+  subject: 'Sending Email using Node.js',
+  text: 'That was easy!New Email'
+};
+
+transporter.sendMail(mailOptions, function(error, info){
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Email sent: ' + info.response);
+  }
+});
+
+/*
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
@@ -7,7 +32,7 @@ const { Script } = require('vm');
 
 const app = express();
 
-app.use(express.static.path.join)
+app.use(express.static.path.join())
 // Body Parser
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -19,7 +44,7 @@ app.get('/', (req, res) => {
 app.post('/send', (req, res) => {
     console.log(req.body)
 })
-/*
+
 app.post('/send', (req, res) => {
   const output = `
     <p>You have a new contact request</p>
@@ -40,7 +65,7 @@ app.post('/send', (req, res) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: 'ngobesethembelihle34@gmail.com', // generated ethereal user
+        user: 'c', // generated ethereal user
         pass: 'Izwile@30'  // generated ethereal password
     },
     tls:{
@@ -68,5 +93,5 @@ app.post('/send', (req, res) => {
       res.render('contact', {msg:'Email has been sent'});
   });
  // });
-*/
-app.listen(3000, () => console.log('Server started...'));
+
+app.listen(3000, () => console.log('Server started...'));*/
