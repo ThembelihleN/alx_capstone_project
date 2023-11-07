@@ -19,19 +19,10 @@ function validateEmail(email) {
   } else {
       p.textContent = 'Please enter a valid email address.';
   };
-}
-
+};
 
 button.addEventListener('click', (event) => {
+  event.preventDefault();
   const email = document.getElementById('email').value;
   validateEmail(email);
-  event.preventDefault();
 });
-
-document.addEventListener('DOMContentLoaded', function (){
-  const contactform = document.getElementById('form')
-  contactform.addEventListener('submit', function (event){
-    event.preventDefault();
-
-  })
-})

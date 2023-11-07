@@ -23,13 +23,13 @@
         <h2 class="section-header">Contact Me</h2>
           <form method="post" action="send" id="form">
             <div class="form-group">
-              <label for="username">Your Name</label>
-              <input type="text" id="name" name="name" placeholder="Full Name" required>
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" autocomplete="given-name family-name" placeholder="Full Name" required>
             </div>
 
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                <input type="email" id="email" name="email" autocomplete="off" placeholder="email@example.com" required>
             </div>
 
             <div class="form-group">
