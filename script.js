@@ -6,7 +6,6 @@ const message = document.getElementById("msg-area")
 const p = document.getElementById("error");
 const button = document.querySelector("button");
 
-
 //email regular expression
 //const regExp = (/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)
 
